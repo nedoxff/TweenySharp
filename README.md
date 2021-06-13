@@ -11,6 +11,7 @@ A C# binding for Tweeny - a modern C++ tweening library
 # Cons
 - Not finished
 - No comments (yet)
+- Buggy (for now)
 - Of course slower than the C++ variant
 - Uses `dynamic` (slower)
 
