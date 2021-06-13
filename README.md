@@ -12,6 +12,7 @@ A C# binding for Tweeny - a modern C++ tweening library
 - Not finished
 - No comments (yet)
 - Buggy (for now)
+- Does not support multiple points like original C++ library does
 - Of course slower than the C++ variant
 - Uses `dynamic` (slower)
 
