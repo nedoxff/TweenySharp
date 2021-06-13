@@ -1,20 +1,20 @@
 # TweenySharp
 A C# binding for Tweeny - a modern C++ tweening library
 
-#Pros
+# Pros
 - No additional libraries needed
 - No C++ dependencies or any P/Invoke methods
 - Debatable but fast
 - No confusing template gibberish
 - It's in C#, c'mon! :D
 
-#Cons
+# Cons
 - Not finished
 - No comments (yet)
 - Of course slower than the C++ variant
 - Uses `dynamic` (slower)
 
-#Usage
+# Usage
 Here's a simple example how you can use TweenySharp:
 ```csharp
 using System;
@@ -39,7 +39,7 @@ namespace App
     }
 }
 ```
-Output:
+### Output:
 ```
     ...
     16
