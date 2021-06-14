@@ -76,7 +76,7 @@ namespace TweenySharp
         public T Seek(float progress, bool suppressCallback)
         {
             currentProgress = Clip(progress, 0f, 1f);
-            currentValue = Convert.ChangeType(Ease.Run(progress, Start, End), typeof(T));
+            currentValue = Clip(Convert.ChangeType(Ease.Run(currentProgress, Start, End), typeof(T)), Start, End);
             if(!suppressCallback)
                 OnSeek?.Invoke(currentValue);
             return currentValue;
